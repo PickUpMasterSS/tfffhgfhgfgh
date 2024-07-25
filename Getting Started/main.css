@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateY(0);}
+}
+
+/*Всплывающее меню*/
+
+.right_menu {
+    animation: ani .7s forwards;
+    background-color: white;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    right: 0;
+    height: 100%
+}
+
+.right_menu > .wrap_right_menu {
+    margin: 65px;
+}
+
+.li_right_menu {
+    margin-top: 56px;
+}
+
+.li_right_menu > * {
+    margin: 16px 0;
+    color: #0060FE;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.active_li_right_menu {
+    color: #285CAE;
+}
+
+.up_right_menu > * {
+    color: #285CAE;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.button_right_menu {
+    background: #0060FE; 
+    color: white;
+    border: 1px solid #0060FE;
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 100%;
+    padding: 17px 0;
+    cursor: pointer;
+}
+
+/*Главное меню*/
+
+.main_section {
+    background-image: linear-gradient(rgba(0, 96, 254, 0.8), rgba(0, 96, 254, 1.0));
+    position: relative;
+}
+
+.main_section > * {
+    margin: 0 32px;
+}
+
+.main_section > .main_padding {
+    padding-top: 32px;
+}
+
+.main_section > div > nav {
+    position: relative; 
+    border: 1px solid rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+}
+
+.main_section > div > nav > li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'PP Neue Montreal', sans-serif;
+}
+
+.main_section > div > nav > div > li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'PP Neue Montreal', sans-serif;
+}
+
+.main_section > .main_text {
+    color: white;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 120px;
+}
+
+.main_section > .main_text > div > * { 
+    display: inline-block;
+}
+
+.main_projects {
+    margin-top: 100px;
+}
+
+.main_projects > div {
+    margin-right: 20px;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 18px;
+}
+
+.main_projects > div > button {
+    float: right;
+    margin-top: 32px; 
+    padding: 17px 24px; 
+    border-radius: 25px; 
+    background-color: white; 
+    color: #0060FE; 
+    border: 1px solid white; 
+    cursor: pointer;
+}
+
+/*Слайдер*/
+
+.slider_section {
+    margin: 112px 32px 0 32px;
+}
+
+.slick-slide { margin-right: 15px; }

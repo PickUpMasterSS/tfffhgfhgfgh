@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello world!</title>
+        <meta name="description" content="Интерактивное руководство по началу работы в Brackets.">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="right_menu">
+            <div class="wrap_right_menu">
+                <div class="up_right_menu">
+                    <div>+7 (912) 999-99-99</div>
+                    <div style="cursor: pointer; margin: 0 24px 0 65px;"><img src="icons/profile-circle.svg"></div>
+                    <div style="cursor: pointer;" onclick="close_menu()"><img width="15px;" src="icons/x-letter.svg"></div>
+                </div>
+                <div class="li_right_menu">
+                    <div class="active_li_right_menu">Состав проекта</div>
+                    <div>Отзывы</div>
+                    <div>Наши работы</div>
+                    <div>О нас</div>
+                    <div>Команда</div>
+                    <div>Контакты</div>
+                </div>
+                <div style="margin-top: 32px;">
+                    <div style="color: rgba(40, 92, 174, .6)">Напишите нам:</div>
+                    <button class="button_right_menu">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="main_section">
+            <div class="main_padding">
+                <nav>
+                    <li style="margin: 18px 0 18px 30px;"><img width="208px" height="48px" src="icons/logo.svg"></li>
+                    <div style="display: inline-block; vertical-align: top; float: right; margin-top: 23.5px;">
+                        <li style="right: 0; vertical-align: text-bottom; margin-right: 32px;">+7 (912) 999-99-99</li>
+                        <li style="right: 0;"><img src="icons/profile-circle.svg"></li>
+                        <li onclick="open_menu()" style="margin-left: 64px; cursor: pointer; right: 0;"><img width="40px" height="20px" src="icons/menu.svg"></li>
+                    </div>
+                </nav>
+            </div>
+            <div class="main_text">
+                <div>Готовые проекты</div>
+                <div style="text-align: center;"><div style="color: #71A7FE;">зданий</div> для <div style="color: #71A7FE;">вашего</div></div>
+                <div style="text-align: right;">бизнеса</div>
+            </div>
+            <div class="main_projects">
+                <div>
+                    <img width="300px" height="200px" src="https://s3-alpha-sig.figma.com/img/4376/5467/8523eb877a09acb52f9f5a52030283c9?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VdLelvypx2NBoSJGj1LOJDyFX932mv3-Kr3skFBXLpgVQFGxQHomxOfgQ9l5hKpcRZi-LD6pOgfFSTcfj7DLhHGVTi-V-cR9XRM5wVaa4NkL2WcYoIbD88xljuaNihxvf5t1oFpgoGHq3q1~ACzGy1t-H8GqasPYlkYItcQjhRlpMFdiuZlezW3ZiSCqEE-BlmQKtMh6I1Po0Nxl3gizpLO~BIzPChQSf-F14muDg6btKAcMkCu9IyexWa1A-RgpT8cYzS~29k1pskMFS-nKB-L3UFJNJyZ~hiHYNMWVvvVd4zzqWN5cuo36dIjlO9JZ4hCsFJNKtuPCijewZBdLXQ__">
+                    <div style="width: 250px;">Проекты  для сельского хозяйства</div>
+                </div>
+                <div>
+                    <img width="300px" height="200px" src="https://s3-alpha-sig.figma.com/img/2e95/f55b/aaa41e093325659d665a87a65fef2368?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=psuhXl9AP8wwnjgb1cqFDWiYrepnVeiEfKSwmXMQaOtmvLUxSe62Qa8-G6URRFZEJ2iHWj8dNGEdx9q7r1wMaoYa-Xls2oEo5PhJLkRUs7olwXf50-dNbnyAeAP6tlOf-0QPlF3Dy4C63yH4kszWo8up7bGGM-2~nFg7kb86i0NGYj4KJiCMvb-tPzLZdIhEeRur~p1JQ6mJKKSNVqTKoTbtSkxh4B9eCN1ZamYQeewr8kN~0RljGjXuvcw4PPn6aywARxLUHxCG5TIoSrM8RLQqfdzb9DajgoT3lrjEYXl~6Y-55Lcux1XLr3TgvyOH0LIvtZVavG4sQrP7PfniLg__">
+                    <div style="width: 250px;">Проекты для торговли и хранения</div>
+                </div>
+                <div>
+                    <img width="300px" height="200px" src="https://s3-alpha-sig.figma.com/img/83a1/3b93/a477ab4222823d871b2e87ffb5230dd5?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AUbZW4ZRZBgXAi84kZi0pEIAAsDcYgD9f2r1YDVdZjAwz3XW22-9nr8YYgdPpAroPjJjXDdBOh-eKXffgWTO3SDJzkj52eEoYA~wtk-baKGS5zr34uK~pxYGX8BLvfX4q3Rh-Lz2KibQM13lnWGIzLOz7LicGQb4USAaKswdFwpgS3~WkviTK2semKDg8o3xhQpquj1lamYTiHycFbsZO0zUBGW3xNwgsyEDfjqCv-Hu7vJGoRf~riydhl-Xk76NHoxOtL1Ccjg2-Z5VuLyFZhXSZPzElq2HWSBX0azbS3JOy7TSezAnotdj7dpZyXwM~UOsIdWDWdS~hsu5OROMhw__">
+                    <div style="width: 250px;">Проекты гаражей, мастерских и СТО</div>
+                </div>
+                <div style="width: 175px;  vertical-align: top; float: right;">
+                    <div style="text-align: right;">Готовые проекты
+для бизнеса,
+проверенные реальным бизнесом</div>
+                    <button>Выбрать проект</button>
+                </div>
+            </div>
+        </div>
+        <div class="containers">
+        <div class="container">
+            <div class="container_project_compositions">
+                <h1>Состав проекта</h1>
+                <hr class="line1">
+                <button class="accordion">
+                    <div class="fdf"> 
+                        <div>
+                            <p class="title_gl">Каждый проект включает в себя:</p>
+                        </div>
+                        <div>
+                            <p class="number_pr">01</p>
+                            <h2>Комплект чертежей КМ</h2>
+                        </div>
+                        <div class="container_project_composition_l3">
+                            <a class="btn-svg" href="#">
+                                <svg  class="munis" width="12" height="2" viewBox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.14286 0.00285721V0H6.85714V0.00285721H12V1.71714H6.85714V1.71999H5.14286V1.71714H0V0.00285721H5.14286Z" fill="#0060FE"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </button>
+                <div class="panel">
+                    <div class="container_project_composition_all">
+                        <div class="container_project_composition_l1">
+                            <img id="myImg" src="./assets/img/photo1.png" style="width:100%;max-width:300px">
+                            <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+                        </div>
+                        <div class="container_project_composition_l2">
+                            <div class="points-projects">
+                                <li>Общая информация.</li>
+                                <li>Данные о нагрузках и прочих воздействиях на конструкции.</li>
+                                <li>Сведения о нагрузках на фундаментные основания.</li>
+                                <li>Чертежи общих видов конструкций зданий и сооружений (при необходимости).</li>
+                                <li>Схемы расположения элементов конструкций.</li>
+                                <li>Чертежи элементов конструкций.</li>
+                                <li>Чертежи узлов конструкций.</li>
+                            </div>
+                            <a class="btn-pr" href="#">посмотреть пример</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container_project_compositions">
+                <hr class="line2">
+                <button class="accordion">
+                    <div class="fdf1"> 
+                        <div>
+                            
+                        </div>
+                        <div>
+                            <p class="number_pr">02</p>
+                            <h2>Комплект чертежей КМ</h2>
+                        </div>
+                        <div class="container_project_composition_l3">
+                            <a class="btn-svg" href="#">
+                                <svg  class="munis" width="12" height="2" viewBox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.14286 0.00285721V0H6.85714V0.00285721H12V1.71714H6.85714V1.71999H5.14286V1.71714H0V0.00285721H5.14286Z" fill="#0060FE"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </button>
+                <div class="panel">
+                    <div class="container_project_composition_all">
+                        <div class="container_project_composition_l1">
+                            <img class="scheme1" src="./assets/img/photo1.png" alt="/photo1.png">
+                        </div>
+                        <div class="container_project_composition_l2">
+                            <div class="points-projects">
+                                <li>Общая информация.</li>
+                                <li>Данные о нагрузках и прочих воздействиях на конструкции.</li>
+                                <li>Сведения о нагрузках на фундаментные основания.</li>
+                                <li>Чертежи общих видов конструкций зданий и сооружений (при необходимости).</li>
+                                <li>Схемы расположения элементов конструкций.</li>
+                                <li>Чертежи элементов конструкций.</li>
+                                <li>Чертежи узлов конструкций.</li>
+                            </div>
+                            <a class="btn-pr" href="#">посмотреть пример</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="containeers_photo">
+        <img class="photo2" src="./assets/img/photo2.png" alt="photo2">
+        
+    </div>
+        
+        <div class="slider_section">
+            <div>
+                <div>Наши работы</div>
+                <div>2/15</div>
+                <div class="slider">
+                    <div>
+                        <img width="800px" height="488px" src="https://s3-alpha-sig.figma.com/img/e25b/9f2f/988ea3cb060a860c4d4502d5bb1be888?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kuSGOHczupPHoghogrwlP37J4khpgaAKJq-XpmNIhlBrZR4X0Y5EjsiykB9Jl1bo3RAlPFbEbe5R92pHwz3cIRLiLeq~a4KDhAbb3DCOqqDuUuK7-NdWtcEKiYE6Sftpjbbm-rq3NdSnSd2BNAmb7RPCTqFGsOmSlIxzFH7Bav0jgh2ktGuwg6plEBJ~YOdGKYg4aCc9Ci0kxEji7tjE107EQEVLhpf0o5jWq9JSaPNvEx6p7sU6qFupRk0FNgzAs5QxJuIx5RQCvWIX0jFgGFAcBgmdZGBTxZKTMQikw9CKUVw0jfHaRu0s9cXODcG~FNK1oKXdIO7NtyVuZ7ru8w__">
+                        <div>Ферма в селе Бураново</div>
+                    </div>
+                    <div>
+                        <img width="800px" height="488px" src="https://s3-alpha-sig.figma.com/img/e25b/9f2f/988ea3cb060a860c4d4502d5bb1be888?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kuSGOHczupPHoghogrwlP37J4khpgaAKJq-XpmNIhlBrZR4X0Y5EjsiykB9Jl1bo3RAlPFbEbe5R92pHwz3cIRLiLeq~a4KDhAbb3DCOqqDuUuK7-NdWtcEKiYE6Sftpjbbm-rq3NdSnSd2BNAmb7RPCTqFGsOmSlIxzFH7Bav0jgh2ktGuwg6plEBJ~YOdGKYg4aCc9Ci0kxEji7tjE107EQEVLhpf0o5jWq9JSaPNvEx6p7sU6qFupRk0FNgzAs5QxJuIx5RQCvWIX0jFgGFAcBgmdZGBTxZKTMQikw9CKUVw0jfHaRu0s9cXODcG~FNK1oKXdIO7NtyVuZ7ru8w__">
+                        <div>Ферма в селе Бураново</div>
+                    </div>
+                    <div>
+                        <img width="800px" height="488px" src="https://s3-alpha-sig.figma.com/img/e25b/9f2f/988ea3cb060a860c4d4502d5bb1be888?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kuSGOHczupPHoghogrwlP37J4khpgaAKJq-XpmNIhlBrZR4X0Y5EjsiykB9Jl1bo3RAlPFbEbe5R92pHwz3cIRLiLeq~a4KDhAbb3DCOqqDuUuK7-NdWtcEKiYE6Sftpjbbm-rq3NdSnSd2BNAmb7RPCTqFGsOmSlIxzFH7Bav0jgh2ktGuwg6plEBJ~YOdGKYg4aCc9Ci0kxEji7tjE107EQEVLhpf0o5jWq9JSaPNvEx6p7sU6qFupRk0FNgzAs5QxJuIx5RQCvWIX0jFgGFAcBgmdZGBTxZKTMQikw9CKUVw0jfHaRu0s9cXODcG~FNK1oKXdIO7NtyVuZ7ru8w__">
+                        <div>Ферма в селе Бураново</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h3 class="titles">Проектное бюро</h3>
+        <div>
+            <div>
+                <p class="desc-pr">Увлеченные делом — увлеченные<br>
+                     проектами</p>
+            </div>
+            <div class="sssf">
+                <div class="cont-block">
+                    <div class="block-desc">
+                        <img src="./assets/img/Group 12133133.png" width="32" height="32" alt="">
+                        <p class="min-desc">Работаем на рынке уже 15+ лет, а общий стаж сотрудников составляет 90 лет</p>
+                    </div>
+                    <div class="block-desc">
+                        <img src="./assets/img/Group 12133133.png" width="32" height="32" alt="">
+                        <p class="min-desc">Работаем на рынке уже 15+ лет, а общий стаж сотрудников составляет 90 лет</p>
+                    </div>
+                </div>
+                <div class="cont-blocks">
+                    <div class="block-desc">
+                        <img src="./assets/img/Group 12133133.png" width="32" height="32" alt="">
+                        <p class="min-desc">Работаем на рынке уже 15+ лет, а общий стаж сотрудников составляет 90 лет</p>
+                    </div>
+                    <div class="block-desc">
+                        <img src="./assets/img/Group 12133133.png" width="32" height="32" alt="">
+                        <p class="min-desc">Работаем на рынке уже 15+ лет, а общий стаж сотрудников составляет 90 лет</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    </body>
+    <script src="/js/main.js"></script>
+</html>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    function open_menu() {
+        document.querySelector('.right_menu').style.display = 'block';
+    }
+    
+    function close_menu() {
+        document.querySelector('.right_menu').style.display = 'none';
+    }
+    
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    variableWidth: true,
+});
+</script>
