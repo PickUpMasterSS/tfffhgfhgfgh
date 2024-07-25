@@ -283,11 +283,13 @@ a svg {
 }
 
 .block-desc {
+    margin-bottom: 100px;
     max-width: 320px;
     max-height: 65px;
     display: flex;
     gap: 20px;
     justify-content: baseline;
+    
 }
 
 .min-desc {
